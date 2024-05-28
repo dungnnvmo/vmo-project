@@ -1,0 +1,72 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "@users/*": [
+        "./src/modules/users/*"
+      ],
+      "@role-module/*": [
+        "./src/modules/role-module/*"
+      ],
+      "@role/*": [
+        "./src/modules/role/*"
+      ],
+      "@form/*": [
+        "./src/modules/form/*"
+      ],
+      "@user-form/*": [
+        "./src/modules/user-form/*"
+      ],
+      "@user-role/*": [
+        "./src/modules/user-role/*"
+      ],
+      "@form-detail/*": [
+        "./src/modules/form-detail/*"
+      ],
+      "@auth/*": [
+        "./src/modules/auth/*"
+      ],
+      "@email/*": [
+        "./src/modules/email/*"
+      ],
+      "@user-form-detail/*": [
+        "./src/modules/user-form-detail/*"
+      ],
+      "@notification/*": [
+        "./src/modules/notification/*"
+      ],
+      "@common/*": [
+        "./src/common/*"
+      ],
+      "@upload/*": [
+        "./src/modules/upload/*"
+      ],
+      "@report/*": [
+        "./src/modules/report/*"
+      ],
+      "@configs/*": [
+        "./src/configs/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+    }
+  },
+}
